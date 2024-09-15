@@ -17,10 +17,11 @@
     the anti-cheat system and allows temporary permissions to be set or removed for players.
 
     Parameters:
-playerSource: The player handle
-category: Permission Category (example: Client or AdminMenu)
-permission: Permission (example: AdminMenuAccess for AdminMenu or BypassSuperJump for Client)
-allow: true or false | default: false
-ignoreStaticPermission: ignores static permission (setting it on true will ignore permissions already made in ace or alternative permissions)
+    playerSource: The player handle
+    category: Permission Category (example: Client or AdminMenu)
+    permission: Permission (example: AdminMenuAccess for AdminMenu or BypassSuperJump for Client)
+    allow: true or false | default: false
+    ignoreStaticPermission: ignores static permission (setting it on true will ignore permissions already made in ace or alternative permissions)
+
 
     This script is designed for the server-side and should be placed in the `server.lua` file.
