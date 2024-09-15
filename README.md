@@ -17,10 +17,10 @@
     the anti-cheat system and allows temporary permissions to be set or removed for players.
 
     Parameters:
-    - `playerSource`: The ID of the player for whom the permission should be set.
-    - `category`: The category of the permission (e.g., "admin").
-    - `permission`: The specific permission type (e.g., "spawn_vehicle").
-    - `allow`: A boolean indicating whether to allow (`true`) or deny (`false`) the permission.
-    - `ignoreStaticPermission`: If `true`, static permissions are ignored, allowing temporary overrides.
+playerSource: The player handle
+category: Permission Category (example: Client or AdminMenu)
+permission: Permission (example: AdminMenuAccess for AdminMenu or BypassSuperJump for Client)
+allow: true or false | default: false
+ignoreStaticPermission: ignores static permission (setting it on true will ignore permissions already made in ace or alternative permissions)
 
     This script is designed for the server-side and should be placed in the `server.lua` file.
